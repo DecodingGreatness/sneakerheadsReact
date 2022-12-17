@@ -11,6 +11,9 @@ const Navbar = () => {
       <li>
         <Link to="/Men">Men</Link>
       </li>
+      <li>
+        <Link to="/Female">Female</Link>
+      </li>
     </div>
   );
 };
