@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./navbar.css";
+import Avatar from "@mui/material/Avatar";
 
 const Navbar = () => {
   return (
@@ -34,6 +35,14 @@ const Navbar = () => {
               <Link to="/Female">Female</Link>
             </li>
           </Typography>
+
+          <IconButton>
+            <Avatar
+              sx={{ crop: "face" }}
+              alt="human"
+              src="https://source.unsplash.com/79GLX12EY98"
+            />
+          </IconButton>
         </Box>
       </Toolbar>
     </AppBar>
