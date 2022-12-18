@@ -6,15 +6,13 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import Button from "@mui/material/Button";
-
-const pages = ["Men", "Female", "Kids", "Favorites"];
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <AppBar position="static" style={{ backgroundColor: "black" }}>
       <Toolbar disableGutters>
-        <Box>
+        <Box className="container">
           <IconButton
             size="large"
             edge="start"
@@ -25,17 +23,18 @@ const Navbar = () => {
             <MenuIcon />
           </IconButton>
 
-          {pages.map((page) => (
-            <Button key={page}>
-              <Typography variant="h6">{page}</Typography>
-            </Button>
-          ))}
+          <Typography className="navlinks">
+            <li>
+              <Link to="/Home">Home</Link>
+            </li>
+            <li>
+              <Link to="/Men">Men</Link>
+            </li>
+            <li>
+              <Link to="/Female">Female</Link>
+            </li>
+          </Typography>
         </Box>
-        <Typography>
-          <Link to="/Home">Home</Link>
-          <Link to="/Men">Men</Link>
-          <Link to="/Female">Female</Link>
-        </Typography>
       </Toolbar>
     </AppBar>
   );
