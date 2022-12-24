@@ -1,8 +1,13 @@
 import React from "react";
 import BrandFilter from "./brandFilter";
+import "./filterBar.css";
 
 const FilterBar = () => {
-  return <BrandFilter />;
+  return (
+    <div className="filterContainer">
+      <BrandFilter />
+    </div>
+  );
 };
 
 export default FilterBar;
