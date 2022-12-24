@@ -17,7 +17,7 @@ const SneakerCard = () => {
         <h2>Sneaker Name</h2>
         <h2>$75</h2>
       </div>
-      <h3>
+      <h3 className="sneakerDescription">
         Et harum quidem rerum facilis est et expedita distinctio. Nam libero
         tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
         minus id quod maxime placeat facere possimus, omnis voluptas assumenda
