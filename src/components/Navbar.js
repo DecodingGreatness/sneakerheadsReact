@@ -34,6 +34,9 @@ const Navbar = () => {
             <li>
               <Link to="/Female">Female</Link>
             </li>
+            <li>
+              <Link to="/Favorites">Favorites</Link>
+            </li>
           </Typography>
 
           <IconButton>
