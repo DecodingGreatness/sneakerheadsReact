@@ -1,0 +1,13 @@
+.sneakerCardContainer {
+  width: 300px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+
+.sneakerDetails {
+  display: flex;
+  justify-content: space-between;
+}
