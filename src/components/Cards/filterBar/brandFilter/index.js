@@ -6,8 +6,8 @@ const BrandFilter = () => {
     <div>
       <h1>Brand</h1>
       <FormGroup>
-        <FormControlLabel control={<Checkbox defaultChecked />} label="Nike" />
-        <FormControlLabel disable control={<Checkbox />} label="Disabled" />
+        <FormControlLabel control={<Checkbox />} label="Nike" />
+        <FormControlLabel disable control={<Checkbox />} label="Adidas" />
       </FormGroup>
     </div>
   );
